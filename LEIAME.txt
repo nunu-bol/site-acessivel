@@ -1,0 +1,2 @@
+Site "Acessibilidade no Dia a Dia" - TDE Programação Web.
+Abra index.html. Para publicar: GitHub Pages, Netlify Drop ou similar (envie esta pasta).

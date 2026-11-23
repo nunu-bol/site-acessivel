@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fale conosco | Acessibilidade no Dia a Dia</title>
+<meta name="description" content="Textos sobre acessibilidade na vida cotidiana.">
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Ir para o conteúdo</a>
+<header>
+<p><strong>Acessibilidade no Dia a Dia</strong></p>
+<div class="barra" role="group" aria-label="Ajustes de leitura">
+<button type="button" id="aumentar">Aumentar fonte</button>
+<button type="button" id="diminuir">Diminuir fonte</button>
+<button type="button" id="contraste">Alto contraste</button>
+</div>
+<nav aria-label="Menu principal"><ul><li><a href="index.html">Início</a></li><li><a href="o-que-e.html">O que é</a></li><li><a href="deficiencias.html">Barreiras</a></li><li><a href="tecnologia-assistiva.html">Tecnologia assistiva</a></li><li><a href="web-acessivel.html">Web acessível</a></li><li><a href="contato.html" aria-current="page">Contato</a></li></ul></nav>
+</header>
+<main id="conteudo">
+<h1>Fale conosco</h1>
+<p>Envie uma sugestão ou conte uma barreira de acessibilidade que você encontrou. Campos com asterisco são obrigatórios.</p>
+<form id="form-contato" novalidate>
+<label for="nome">Nome (obrigatório)</label>
+<input type="text" id="nome" name="nome" autocomplete="name" required aria-required="true">
+<label for="email">E-mail (obrigatório)</label>
+<input type="email" id="email" name="email" autocomplete="email" required aria-required="true">
+<label for="msg">Mensagem</label>
+<textarea id="msg" name="msg" rows="5"></textarea>
+<p><button type="submit" style="font:inherit;padding:.5rem 1rem;margin-top:1rem">Enviar mensagem</button></p>
+</form>
+<p id="resultado" class="erro" role="alert" aria-live="assertive"></p>
+</main>
+<footer><p>Trabalho acadêmico de Programação Web, PUCPR. Baseado nos módulos eMAG Conteudista da Enap.</p></footer>
+<script src="js/acessibilidade.js"></script>
+</body>
+</html>
