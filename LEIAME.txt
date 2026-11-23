@@ -1,0 +1,62 @@
+TDE – PROGRAMACAO WEB
+Projeto: Acessibilidade no Dia a Dia
+
+OBJETIVO
+Aplicacao web com conteudos sobre acessibilidade na vida cotidiana, desenvolvida como atividade individual de Programacao Web.
+
+SITE PUBLICADO
+https://nunu-bol.github.io/site-acessivel/
+
+PAGINAS DO SITE
+1. index.html – Pagina inicial.
+2. o-que-e.html – Conceito e importancia da acessibilidade.
+3. deficiencias.html – Barreiras enfrentadas no dia a dia.
+4. tecnologia-assistiva.html – Exemplos de tecnologia assistiva.
+5. web-acessivel.html – Boas praticas para uma web acessivel.
+6. contato.html – Formulario de contato demonstrativo.
+
+TECNOLOGIAS UTILIZADAS
+- HTML
+- CSS
+- JavaScript
+
+RECURSOS DE ACESSIBILIDADE IMPLEMENTADOS
+- Estrutura HTML semantica e idioma da pagina definido como portugues do Brasil.
+- Link para pular diretamente ao conteudo principal.
+- Navegacao por menu com links entre as paginas.
+- Identificacao da pagina atual no menu.
+- Textos alternativos para imagens.
+- Controles para aumentar e diminuir o tamanho da fonte.
+- Opcao de alto contraste.
+- Indicacao visual de foco para navegacao por teclado.
+- Formularios com rotulos, indicacao de campo invalido e validacao basica em JavaScript.
+
+COMO EXECUTAR LOCALMENTE
+1. Extraia este arquivo ZIP.
+2. Abra a pasta "site".
+3. Abra o arquivo "index.html" em um navegador.
+4. Para testar o formulario e os recursos de acessibilidade, navegue pelas paginas usando o menu.
+
+ESTRUTURA DOS ARQUIVOS
+- *.html: paginas do site.
+- css/estilo.css: estilos visuais e de apresentacao.
+- js/acessibilidade.js: controles de acessibilidade e validacao do formulario.
+- img/: imagens utilizadas no site.
+- docs/: documentos eMAG dos Modulos 1 e 2.
+- video-demonstrativo.mp4: demonstracao em video do funcionamento do site.
+
+DOCUMENTOS DE REFERENCIA
+- docs/eMAG_CONTEUDISTA_MOD_1.pdf
+- docs/eMAG_CONTEUDISTA_MOD_2.pdf
+
+VIDEO DEMONSTRATIVO
+Arquivo: video-demonstrativo.mp4
+Duracao aproximada: 4 minutos e 17 segundos.
+
+OBSERVACOES
+- O formulario de contato e demonstrativo: a validacao e a mensagem de retorno sao executadas no navegador. O projeto nao possui servidor ou envio real de mensagens.
+- As preferencias de tamanho da fonte e alto contraste sao salvas quando o navegador permite o uso do armazenamento local; se o armazenamento estiver bloqueado, os controles continuam funcionando durante a pagina aberta.
+- Os recursos implementados ajudam na acessibilidade, mas nao representam, por si so, uma certificacao de conformidade. Recomenda-se testar com teclado, leitor de tela e ferramentas de validacao.
+
+ENTREGA
+Este arquivo ZIP contem o codigo-fonte, as paginas HTML, os arquivos CSS e JavaScript, as imagens, os documentos eMAG e o video demonstrativo. O endereco de publicacao esta informado acima.
